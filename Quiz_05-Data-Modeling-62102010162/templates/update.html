@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Update</title>
+    <style>
+        body {
+            background-image: url('https://cutewallpaper.org/21/free-gif-backgrounds/Galaxy-Clouds-Tumblr-Free-Blue-Hipster-Backgrounds-With-Cute-.gif');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            position: relative; 
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="font-size: 55px; color: red;">Update book</h1>
+
+
+    <form action='' method="POST">
+        <h4 class= text-center style="font-size: 40px; color:yellow;">แก้ไขข้อมูล</h4>
+            <div class="form-group">
+                <h4 style="font-size: 40px;">Title : 
+                <input type="text" placeholder="Title"  name="title" value="{{ book.title }}" style="font-size: 40px;"/></h4>
+                <h4 style="font-size: 40px;">Author : 
+                <input type="text" placeholder="Author"  name="author"value="{{ book.author }}" style="font-size: 40px;"/></h4>
+                <h4 style="font-size: 40px;">Genre : 
+                <input type="text" placeholder="Genre"   name="genre" value="{{ book.genre }}" style="font-size: 40px;"/></h4>
+                <h4 style="font-size: 40px;">Height : 
+                <input type="integer" placeholder="Height"  name="height"value="{{ book.height }}" style="font-size: 40px;"/></h4>
+                <h4 style="font-size: 40px;">Publisher : 
+                <input type="text" placeholder = "Publisher"  name="publisher"value="{{ book.publisher }}" style="font-size: 40px;"/></h4>
+        </div>
+                <input type="submit" class="btn btn-success mr-2" value="อัพเดต" style="font-size: 40px;"/><br>
+                <br><a href="/" class="btn btn-primary" style="font-size: 40px;">ย้อนกลับ  <i class="fas fa-arrow-circle-left"></i></a>           
+</body>
+</html>
+
